@@ -18,7 +18,7 @@
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
-					<div id="intro">
+					<!-- <div id="intro">
 						<h1>This is<br />
 						Massively</h1>
 						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
@@ -26,7 +26,7 @@
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
-					</div>
+					</div> -->
 
 				<!-- Header -->
 					<header id="header">
@@ -36,15 +36,18 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
+							<li class="active"><a href="#">Inicio</a></li>
+							<li><a href="#">Productos</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Nosotros</a></li>
+							<li><a href="#">Contacto</a></li>
+							<div id="botonesEspacio">
+								<li><button class="botones">Iniciar Sesión</button></li>
+								<li><button class="botones" id="registraseBtn">Registrarse</button></li>
+							</div>
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#"><span class="label"><img src="./assets/Imagenes/carro.png" id="carrito"></span></a></li>
 						</ul>
 					</nav>
 
@@ -54,21 +57,72 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<!-- <span class="date">April 25, 2017</span> -->
+									<h2 class="titulo">Misión</h2>
+									<p class="parrafos">En un campo tan reducido como la comercialización de café, nosotros queremos enfocar nuestra atención en personas que no tienen la capacidad económica para crear un sitio web, un aplicativo o puede que sea el caso, que desconozca el funcionamiento de las redes sociales. Allí es donde ayudaremos a que estas personas puedan vender sus productos por medio de nosotros, nuestra página e-commerce facilitará esta labor para microempresarios y microempresarias.</p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
 							</article>
 
+							<article class="post featured">
+								<header class="major">
+									<!-- <span class="date">April 25, 2017</span> -->
+									<h2 class="titulo">Visión</h2>
+									<p class="parrafos">Ser una de las mejores páginas e-commerce centradas en la comercialización de café a nivel Colombia, en donde cada uno de nuestros clientes tenga la plena seguridad que sus productos se venderán y se entregarán en los destinos de los compradores, además queremos aportar nuestro granito de arena en el comercio de café premium.</p>
+								</header>
+							</article>
+
+							<article class="post featured">
+								<header class="major">
+									<h2 class="titulo">Valores</h2>
+									<div class="contenedor">
+										<p class="parrafoValores">Coffe Wehyah trabaja en un plan de responsabilidad por medio de distintas acciones, ya que nuestra prioridad es que los microempresarios, empresarios y consumidores tengan la seguridad de que sus productos y efectivo va a llegar a las partes involucradas sin ningún contratiempo o problema.</p>
+										<img id="imagenValores" src="./assets/Imagenes/valores.png">
+									</div>
+									<!-- <span class="date">April 25, 2017</span> -->
+								</header>
+							</article>
+
+							<div class="contenedorFotosPrincipal">
+								<div id="contenedorTotal1" class="contenedorEfecto1" onmouseover="activo1()" onmouseout="inactivo1()">
+									<div id="contenedorFotosA">
+										<img src="./assets/Imagenes/foto-prueba.jpg" id="foto1">
+									</div>
+									<h3 id="subtituloFoto1">Ruth</h3>
+									<div class="textoOculto">Desarrolladora Full-Stack</div>
+								</div>
+
+								<div id="contenedorTotal2" class="contenedorEfecto2" onmouseover="activo2()" onmouseout="inactivo2()">
+									<div id="contenedorFotosB">
+										<img src="./assets/Imagenes/valores.png" id="foto2">
+									</div>
+									<h3 id="subtituloFoto2">Juliana</h3>
+									<div class="textoOculto">Desarrolladora Full-Stack</div>
+								</div>
+
+								<div id="contenedorTotal3" class="contenedorEfecto3" onmouseover="activo3()" onmouseout="inactivo3()">
+									<div id="contenedorFotosC">
+										<img src="./assets/Imagenes/valores.png" id="foto3">
+									</div>
+									<h3 id="subtituloFoto3">Paula</h3>
+									<div class="textoOculto">Desarrolladora Full-Stack</div>
+								</div>
+
+								<div id="contenedorTotal4" class="contenedorEfecto4" onmouseover="activo4()" onmouseout="inactivo4()">
+									<div id="contenedorFotosD">
+										<img src="./assets/Imagenes/valores.png" id="foto4">
+									</div>
+									<h3 id="subtituloFoto4">Julián</h3>
+									<div class="textoOculto">Desarrolladora Full-Stack</div>
+								</div>
+
+							</div>
+
+							<!-- <div class="contenedorFotos1">
+								<img src="./assets/Imagenes/valores.png">
+							</div> -->
+
 						<!-- Posts -->
-							<section class="posts">
+							<!-- <section class="posts">
 								<article>
 									<header>
 										<span class="date">April 24, 2017</span>
@@ -141,12 +195,12 @@
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
-							</section>
+							</section> -->
 
 						<!-- Footer -->
-							<footer>
+							<!-- <footer>
 								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="previous">Prev</a>
 									<a href="#" class="page active">1</a>
 									<a href="#" class="page">2</a>
 									<a href="#" class="page">3</a>
@@ -156,12 +210,13 @@
 									<a href="#" class="page">10</a>
 									<a href="#" class="next">Next</a>
 								</div>
-							</footer>
+							</footer> -->
+							<br>
 
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<!-- <footer id="footer">
 						<section>
 							<form method="post" action="#">
 								<div class="fields">
@@ -207,8 +262,32 @@
 								</ul>
 							</section>
 						</section>
+					</footer> -->
+					<footer>
+						<div id="piePagina">
+							<div id="redesSociales">
+								<p id="textoFooter1">Siguenos en nuestras redes sociales</p>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								</ul>
+							</div>
+							<div id="contactos">
+								<p id="textoFooter2">Tel: 061 - 9999999</p>
+								<p id="textoFooter3">WhatsApp: 310 000 00 00 </p>
+								<p id="textoFooter4">Correo: coffeewehyah@gmail.com</p>
+							</div>
+							<div id="mediosPago">
+								<p id="textoFooter5">Tus compras con estos medios de pago</p>
+								<div id="contenedorImagenesPago">
+									<img class="imagenesPago" src="./assets/Imagenes/efecty.png">
+									<img class="imagenesPago" src="./assets/Imagenes/pse.png">
+									<img class="imagenesPago" src="./assets/Imagenes/visa.png">
+									<img class="imagenesPago" src="./assets/Imagenes/mastercard.png">
+								</div>
+							</div>
+						</div>
 					</footer>
-
 				<!-- Copyright -->
 					<div id="copyright">
 						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
@@ -217,6 +296,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/script.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

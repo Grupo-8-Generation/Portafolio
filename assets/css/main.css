@@ -132,7 +132,6 @@ input, select, textarea {
 			html {
 				font-size: 11pt;
 			}
-
 		}
 
 		@media screen and (max-width: 360px) {
@@ -140,7 +139,6 @@ input, select, textarea {
 			html {
 				font-size: 10pt;
 			}
-
 		}
 
 	body {
@@ -556,7 +554,7 @@ input, select, textarea {
 			.row.gtr-200 > * {
 				padding: 0 0 0 3rem;
 			}
-
+hover
 			.row.gtr-200.gtr-uniform {
 				margin-top: -3rem;
 			}
@@ -1791,6 +1789,240 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 360px) {
+			/*Estilos para pantalla de 360*/
+			/*ID'S*/
+			/*Posición de los botones en el menú hamburguesa*/
+			#botonesEspacio
+			{
+				display: flex;
+				flex-direction: column;
+			}
+			/*Posición del boton registrar, para que quede debajo del botón Iniciar Sesión*/
+			#registraseBtn
+			{
+				/* margin-left: -100px !important; */
+				margin-top: 50px;
+				margin-left: -197px;
+			}
+
+			/*Contenedor de imagenes de pago: efecty, pse, mastercard, visa. Para 
+			que queden en fila y con espaciado*/
+			#contenedorImagenesPago
+			{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				margin-bottom: 10px;
+			}
+			
+			/*Pie de página que va ser contenedor principal, se va almacenar en columna y centrado
+			allí se almacena los id's: redesSociales, contactos y mediosPago*/
+			#piePagina
+			{
+				margin-left: 0px!important;
+				background: #BA8F44;
+				width: 360px !important;
+				height: 360px !important;
+				display: flex;
+				flex-direction: column !important;
+				justify-content: center !important;
+			}
+		
+			/*Pertenece al contenedor id:redesSociales, se da ancho y margen al texto*/
+			#textoFooter1
+			{
+				width: 200px;
+				margin-bottom: 5px;
+			}
+			
+			/*Primer contenedor ,puede visualzar en la pantalla móvil en forma de columna 
+			y los componenetes que se encuentre dentro de esta tendran este comportamiento*/
+			#redesSociales
+			{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				align-content: center;
+				margin-left: 20px;
+			}
+			
+			/*Segundo contenedor ,puede visualzar en la pantalla móvil en forma de columna 
+			y los componenetes que se encuentre dentro de esta tendran este comportamiento*/
+			#contactos
+			{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				align-content: center;
+				/* margin-right: 50px; */
+			}
+			
+			/*Primer contenedor ,puede visualzar en la pantalla móvil en forma de columna 
+			y los compoenentes tendra margen a la izquierda, para que no se vea pegado a la 
+			finalziación de la página*/
+			#mediosPago
+			{
+		
+				margin-left: 20px;
+			}
+			
+			/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
+			#textoFooter2
+			{
+				width: 141px;
+				margin-bottom: 5px;
+			}
+			
+			/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
+			#textoFooter3
+			{
+				width: 200px;
+				margin-bottom: 5px;
+			}
+			
+			/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
+			#textoFooter4
+			{
+				width: 290px;
+				margin-left: 30px !important;
+				margin-bottom: 5px;
+			}
+
+			/*Componente perteneciente a id: medioPago, caracteristicas de margen y ancho*/
+			#textoFooter5
+			{
+				width: 290px;
+				margin-left: 25px;
+			}
+
+			/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centras
+			y con un una posión en fila*/
+			#contenedorFotosA
+			{
+				width: 150px;
+				height: 150px;
+				display: flex;
+				flex-direction: row;
+				border-radius: 210px;
+				overflow: hidden;
+				justify-content: center;
+				align-items: center;
+				margin-left: 10px;
+				margin-top: 15px;
+			}
+			
+			/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centras
+			y con un una posión en fila*/
+			#contenedorFotosB
+			{
+				width: 150px;
+				height: 150px;
+				display: flex;
+				flex-direction: row;
+				border-radius: 210px;
+				overflow: hidden;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centras
+			y con un una posión en fila*/
+			#contenedorFotosC
+			{
+				width: 150px;
+				height: 150px;
+				display: flex;
+				flex-direction: row;
+				border-radius: 210px;
+				overflow: hidden;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centras
+			y con un una posión en fila*/
+			#contenedorFotosD
+			{
+				width: 150px;
+				height: 150px;
+				display: flex;
+				flex-direction: row;
+				border-radius: 210px;
+				overflow: hidden;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			/*Subtitulo que acompaña la foto, en este caso nombre de cada integrante*/
+			#subtituloFoto1
+			{
+				text-align: center;
+				margin-left: 10px !important;
+			}
+
+			/*Subtitulo que acompaña la foto, en este caso nombre de cada integrante*/
+			#subtituloFoto2
+			{
+				text-align: center;
+				margin-left: 10px !important;
+			}
+
+			/*Subtitulo que acompaña la foto, en este caso nombre de cada integrante*/
+			#subtituloFoto3
+			{
+				text-align: center;
+				margin-left: 10px !important;
+			}
+
+			/*Subtitulo que acompaña la foto, en este caso nombre de cada integrante*/
+			#subtituloFoto4
+			{
+				text-align: center;
+				margin-left: 10px !important;
+			}
+
+			/*Tamaño de imagen, que aparece en la sección valores*/
+			#imagenValores
+			{
+				width: 210px;
+				height: 210px;
+				margin-left: 50px!important;
+			}
+
+			/*Tamaño que va tener las imagenes que estan en el contenedor con id: mediosPago*/
+			.imagenesPago
+			{
+				width: 70px;
+				height: 70px;
+			}
+
+			/*Contenedor para que las fotos y los componentes de está salgan en forma de columna*/
+			.contenedorFotosPrincipal
+			{
+				display: flex;
+				flex-direction: column !important;
+			}
+
+			/*Contenedor que pertenece a la sección de valores, en donde se va mostrar en forma de 
+			columna el texto y la imagen*/
+			.contenedor
+			{
+				display: flex;
+				flex-direction: column !important;
+			}
+
+			/*id perteneciente a la sección de valores, con un ancho de acuerdo al tamaño de la
+			pantalla*/
+			.parrafoValores
+			{
+				font-size: 16px;
+				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				color: #F8E6B9;
+				width: 300px !important;
+			}
 
 			.row {
 				display: flex;
@@ -2215,8 +2447,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px black;
+			color: black !important;
 		}
 
 		input[type="submit"].primary,
@@ -3363,8 +3595,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px black;
+				color: black !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3615,7 +3847,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: /*rgba(255, 255, 255, 0.175);*/#BA8F44;
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3756,7 +3988,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background: #BA8F44;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -4017,8 +4249,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px black;
+				color: black !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4687,3 +4919,348 @@ input, select, textarea {
 		}
 
 	}
+
+	/*Contenedor de imagenes de pago: efecty, pse, mastercard, visa. Para que queden en fila 
+	y con espaciado*/
+	#contenedorImagenesPago
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	/*Pie de página que va ser contenedor principal, se va almacenar en fila y con espaciado allí se 
+	almacena los id's: redesSociales, contactos y mediosPago*/
+	#piePagina
+	{
+		margin-left: 104px;
+		background: #BA8F44;
+		width: 1056px;
+		height: 150px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	/*Pertenece al contenedor id:redesSociales, se da ancho y margen al texto*/
+	#textoFooter1
+	{
+		width: 200px;
+		margin-bottom: 5px;
+	}
+	/*Primer contenedor ,puede visualzar en la pantalla en forma de columna 
+	y los componenetes que se encuentre dentro de esta tendran este comportamiento*/
+	#redesSociales
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		margin-left: 20px;
+	}
+
+	/*Segundo contenedor ,puede visualzar en la pantalla en forma de columna 
+	y los componenetes que se encuentre dentro de esta tendran este comportamiento*/
+	#contactos
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		align-content: center;
+		/* margin-right: 50px; */
+	}
+
+	/*Primer contenedor ,puede visualzar en la pantalla con margen*/
+	#mediosPago
+	{
+
+		margin-right: 20px;
+	}
+
+	/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
+	#textoFooter2
+	{
+		width: 141px;
+		margin-bottom: 5px;
+	}
+
+	/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
+	#textoFooter3
+	{
+		width: 200px;
+		margin-bottom: 5px;
+	}
+
+	/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
+	#textoFooter4
+	{
+		width: 290px;
+		margin-bottom: 5px;
+	}
+
+	/*Tamaño del icono de carrito de compra*/
+	#carrito
+	{
+		width: 60px;
+		height: 60px;
+	}
+
+	/*Aquí se define que en el navbar, los botones de registro e inicar sesión, en donde 
+	aparecera en fila y su espacio sera de 10px*/
+	#botonesEspacio
+	{
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+
+	/* #foto2
+	{
+		margin-left: 50px;
+	}
+
+	#foto3
+	{
+		margin-left: 50px;
+	}
+	#foto4
+	{
+		margin-left: 50px;
+	} */
+
+	/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centradas
+	y con un una posión en fila*/
+	#contenedorFotosA
+	{
+		width: 150px;
+		height: 150px;
+		display: flex;
+		flex-direction: row;
+		border-radius: 210px;
+		overflow: hidden;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+	}
+
+	/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centradas
+	y con un una posión en fila*/
+	#contenedorFotosB
+	{
+		width: 150px;
+		height: 150px;
+		display: flex;
+		flex-direction: row;
+		border-radius: 210px;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* margin-left: 100px ; */
+		margin-top: 15px;
+	}
+
+	/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centradas
+	y con un una posión en fila*/
+	#contenedorFotosC
+	{
+		width: 150px;
+		height: 150px;
+		display: flex;
+		flex-direction: row;
+		border-radius: 210px;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* margin-left: 120px ; */
+		margin-top: 15px;
+	}
+
+	/*Aquí se le da la forma obalada al contenedor de la imagen, coracteristicas centradas
+	y con un una posión en fila*/
+	#contenedorFotosD
+	{
+		width: 150px;
+		height: 150px;
+		display: flex;
+		flex-direction: row;
+		border-radius: 210px;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* margin-left: 120px ; */
+		margin-top: 15px;
+	}
+
+	/*Ancho y alto de la imagen, también margenes para que quede al lado del parrafo de valores*/
+	#imagenValores
+	{
+		width: 210px;
+		height: 210px;
+		margin-left: 150px;
+		margin-top: 20px;
+	}
+
+	/*Contenedor principal de la imagen, con su texto y subtitulo, allí tambien se encuentra
+	las funciones para realizar los efectos*/
+	#contenedorTotal1
+	{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+
+	/*Contenedor principal de la imagen, con su texto y subtitulo, allí tambien se encuentra
+	las funciones para realizar los efectos*/
+	#contenedorTotal2
+	{
+
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+
+	/*Contenedor principal de la imagen, con su texto y subtitulo, allí tambien se encuentra
+	las funciones para realizar los efectos*/
+	#contenedorTotal3
+	{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+
+	/*Contenedor principal de la imagen, con su texto y subtitulo, allí tambien se encuentra
+	las funciones para realizar los efectos*/
+	#contenedorTotal4
+	{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+
+	/*Tamaño y fuente de todos los titulos que llamen esta clase*/
+	.titulo
+	{
+		font-size: 36px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		color: #F8E6B9;
+	}
+
+	/*Tamaño y fuente de todos los parrafos que llamen esta clase*/
+	.parrafos
+	{
+		font-size: 16px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		color: #F8E6B9;
+	}
+
+	/*Parrafo de valores, parrafo personalizado para que el ancho de esta, pueda verse
+	a la mitad y la imagen pueda verse al lado de este parrafo, además de la fuente y tamaño*/
+	.parrafoValores
+	{
+		font-size: 16px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		color: #F8E6B9;
+		width: 500px;
+	}
+
+	/* .linea
+	{
+		background: black;
+		width: 950px;
+		height: 2px;
+	} */
+
+	/*Contenedor pertenciente a la sección de valores*/
+	.contenedor
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	/*Contenedor para que las fotos y los componentes de está salgan en forma de columna*/
+	.contenedorFotosPrincipal
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	/*Allí se dice que los contenedores, noe sten fijo que sean relativos y combinación de inline
+	y block*/
+	.contenedorEfecto1, .contenedorEfecto2, .contenedorEfecto3, .contenedorEfecto4
+	{
+		position: relative;
+		display: inline-block;
+		/* background: black; */
+	}
+
+	/*Efecto y transción para cada foto con anchura y altura*/
+	.contenedorEfecto1 #foto1, .contenedorEfecto2 #foto2, .contenedorEfecto3 #foto3, .contenedorEfecto4 #foto4
+	{
+		/* width: 200px; */
+		width: 200px;
+		height: 180px;
+		transition: width 0.3s ease;
+	}
+
+	/*Efecto y transición del tamaño de la letra h3*/
+	.contenedorEfecto1 h3, .contenedorEfecto2 h3, .contenedorEfecto3 h3, .contenedorEfecto4 h3
+	{
+		font-size: 24px;
+		transition: font-size 0.3s ease;
+	}
+
+	/*Texto oculto, para tener por defecto una vez se pase el mouse encima de la imagen*/
+	.textoOculto
+	{
+		position: absolute;
+		bottom: 0;
+		background: #BA8F44;
+		color: #F8E6B9;
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0s opacity 0.3s linear;
+	}
+	
+	/*Efecto para visualizar el texto*/
+	.contenedorEfecto1:hover .textoOculto, .contenedorEfecto2:hover .textoOculto, .contenedorEfecto3:hover .textoOculto, 
+	.contenedorEfecto4:hover .textoOculto
+	{
+		margin-bottom: -50px !important;
+		visibility: visible;
+		opacity: 1;
+	}
+
+	/*Agrandar el ancho de la imagen*/
+	.contenedorEfecto1:hover #foto1, .contenedorEfecto2:hover #foto2, .contenedorEfecto3:hover #foto3,
+	.contenedorEfecto4:hover #foto4
+	{
+		width: 300px;
+	}
+
+	/*Tamaño de la letra cuando se pase el mouse por encima de la imagen*/
+	.contenedorEfecto1:hover h3, .contenedorEfecto2:hover h3, .contenedorEfecto3:hover h3, .contenedorEfecto4:hover h3
+	{
+		font-size: 30px;
+	}
+
+	/*Tamaño general de las imagenes pse, visa, mastercard, efecty*/
+	.imagenesPago
+	{
+		width: 70px;
+		height: 70px;
+	}
+
+	/*tamaño de los botonoes de registro e iniciar sesión*/
+	.botones
+	{
+		width: 180px;
+	}
+
