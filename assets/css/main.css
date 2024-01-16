@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1831,8 +1825,8 @@ hover
 			/*Pertenece al contenedor id:redesSociales, se da ancho y margen al texto*/
 			#textoFooter1
 			{
-				width: 200px;
-				margin-bottom: 5px;
+				width: 100px;
+				
 			}
 			
 			/*Primer contenedor ,puede visualzar en la pantalla móvil en forma de columna 
@@ -1843,7 +1837,7 @@ hover
 				flex-direction: column;
 				align-items: center;
 				align-content: center;
-				margin-left: 20px;
+				margin-left: 0px;
 			}
 			
 			/*Segundo contenedor ,puede visualzar en la pantalla móvil en forma de columna 
@@ -1863,13 +1857,13 @@ hover
 			#mediosPago
 			{
 		
-				margin-left: 20px;
+				margin-left: 0px;
 			}
 			
 			/*Componente perteneciente a id: contactos, caracteristicas de margen y ancho*/
 			#textoFooter2
 			{
-				width: 141px;
+				width: 1px;
 				margin-bottom: 5px;
 			}
 			
@@ -3466,7 +3460,7 @@ hover
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpeg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -4933,7 +4927,7 @@ hover
 	almacena los id's: redesSociales, contactos y mediosPago*/
 	#piePagina
 	{
-		margin-left: 104px;
+		margin-left: 1px;
 		background: #BA8F44;
 		width: 1056px;
 		height: 150px;
